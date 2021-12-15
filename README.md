@@ -33,6 +33,7 @@
 $ git clone https://github.com/Douseki-Tei/robosys_LED.git
 $ cd robosys_LED
 $ make
+
 $ sudo insmod myled.ko
 $ sudo chmod 666 /dev/myled0
 ```
@@ -46,3 +47,9 @@ $ echo 1 > /dev/myled0
 ```sh
 $ echo 0 > /dev/myled0
 ```
+実行後の後処理は以下のコマンドを実行。
+```sh
+$ make clean
+```
+
+---
