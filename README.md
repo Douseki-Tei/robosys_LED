@@ -1,17 +1,24 @@
 # robosys_LED
 2021年度ロボットシステム学の課題1です。デバイスドライバです。
+<br>
+数値入力(0、1)によって、LEDが点灯、消灯することができる。
 
 ---
 # 動作環境
 ・OS : ubuntu 20.04 server
+<br>
 ・Raspberry Pi 4 Model B
 
 ---
 # 使用したもの
 ・Raspberry Pi4 model B x1
+<br>
 ・ブレッドボード x1
+<br>
 ・ジャンプワイヤ ×6
+<br>
 ・LED ×1
+<br>
 ・抵抗 ×1
 
 ---
