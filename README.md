@@ -49,7 +49,10 @@ $ echo 0 > /dev/myled0
 ```
 実行後の後処理は以下のコマンドを実行。
 ```sh
+$ sudo rmmod myled
 $ make clean
 ```
 
 ---
+# ライセンス
+[GNU General Public License v3.0](https://github.com/TonoLeo/robosys_LED/blob/main/COPYING)
