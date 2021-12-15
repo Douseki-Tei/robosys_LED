@@ -27,3 +27,10 @@
 
 ---
 # 使用方法
+```sh
+$ git clone https://github.com/Douseki-Tei/robosys_LED.git
+$ cd robosys_LED
+$ make
+$ sudo insmod myled.ko
+$ sudo chmod 666 /dev/myled0
+```
