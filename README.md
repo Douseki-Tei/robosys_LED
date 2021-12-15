@@ -27,10 +27,22 @@
 
 ---
 # 使用方法
+以下のコマンドを実行.
+
 ```sh
 $ git clone https://github.com/Douseki-Tei/robosys_LED.git
 $ cd robosys_LED
 $ make
 $ sudo insmod myled.ko
 $ sudo chmod 666 /dev/myled0
+```
+以下のコマンドで点灯。
+
+```sh
+$ echo 1 > /dev/myled0
+```
+以下のコマンドで消灯。
+
+```sh
+$ echo 0 > /dev/myled0
 ```
