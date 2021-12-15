@@ -14,7 +14,7 @@
 ・LED ×1
 ・抵抗 ×1
 
-
+---
 # 回路（配線図）
 ![配線図](https://user-images.githubusercontent.com/71487790/146228757-09daa59f-f723-446a-87a8-e2db42eb9340.jpg)
 
